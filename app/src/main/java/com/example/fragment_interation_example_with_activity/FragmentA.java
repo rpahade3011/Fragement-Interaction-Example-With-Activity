@@ -42,6 +42,10 @@ public class FragmentA extends Fragment {
         fragmentListener = null;
     }
 
+    /**
+     * Sets the FragmentListener instance
+     * @param listener FragmentListener
+     */
     public void setOnDataReceived(FragmentListener listener) {
         fragmentListener = listener;
     }

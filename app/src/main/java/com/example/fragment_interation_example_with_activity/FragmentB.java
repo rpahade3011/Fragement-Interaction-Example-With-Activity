@@ -25,6 +25,10 @@ public class FragmentB extends Fragment {
         return myFragmentBView;
     }
 
+    /**
+     * Updates the data received from FragmentA
+     * @param newText String
+     */
     public void updateTextField(String newText) {
         updateText.setText(newText);
     }
